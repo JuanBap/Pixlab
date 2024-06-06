@@ -71,6 +71,11 @@ body {
     font-size: 18px;
     color: white;
     cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover{
+    background: #F40076;
 }
 
 .login-link {
