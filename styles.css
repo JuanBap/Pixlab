@@ -62,15 +62,16 @@ nav {
 main {
     flex: 1;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     text-align: center;
 }
 
 .hero {
-    background: rgba(255, 255, 255);
+    background: rgba(255, 255, 255, 0.9);
     padding: 40px;
     border-radius: 8px;
+    margin-top: 20px;
 }
 
 .hero h1 {
@@ -97,6 +98,28 @@ main {
 
 .hero .btn:hover {
     background: #F40076;
+}
+
+section {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+#services .service, #portfolio .project, #testimonials .testimonial {
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#services .service img, #portfolio .project img {
+    width: 100px;
+    height: 100px;
 }
 
 footer {
